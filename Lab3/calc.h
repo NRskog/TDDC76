@@ -2,10 +2,7 @@
 #ifndef calc_h
 #define calc_h
 
-// Komplettering: Heltal i uttryck ska lagras som just heltal KLAR
-// Komplettering: använd 'protected' istället för 'private' när     KLAR
-//   klasser som ärver ska kunna arbeta med skyddad data istället 
-//   för att implementera helt public getters och setters.
+
 
 class Node
 {
