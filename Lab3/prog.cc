@@ -9,17 +9,6 @@
 
 using namespace std;
 
-// Komplettering: Det finns inget anledning att ha Expression som en pekare i           KLAR
-//   huvudprogrammet. Syftet med att skapa Klassen Expression är att vi ska slippa hantera
-//   de jobbiga pekare som trädet består av. Vi har också implementerat de speciella
-//   medlemsfunktionerna så att allt ska hanteras korrekt vid flytt och destruktion.
-
-// Komplettering: Kompilerar med varningar med kursens flaggor. Fixa dessa.     KLAR
-// Komplettering: Erat program krashar vid :quit eller :exit om uttryck ej sparats. Klar
-// Komplettering: Ni får minnesläckor i väldigt många fall. KLAR
-
-
-
 
 int main()
 
