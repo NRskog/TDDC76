@@ -5,14 +5,7 @@
 #include <string>
 #include <set>
 
-// A class to read strings from an istream just like std::string,
-// but tokens are separated not only by space, but also by operators.
-//
-// You should be able to just change from "std::string" to "Token" in
-// your program unless you do something special with your strings.
-//
-// Tokens can be classified as integers, deciamls, identifiers or operators.
-//
+
 class Token
 {
 public:
