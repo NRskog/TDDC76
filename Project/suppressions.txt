@@ -1,0 +1,70 @@
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr1
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libsfml-*
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr2
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libsfml-*
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libsfml-*
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr8
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libsfml-*
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr1
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/dri/*
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr2
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/dri/*
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr4
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/dri/*
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Addr8
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/dri/*
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/dri/*
+   ...
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Cond
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/dri/*
+   ...
+}

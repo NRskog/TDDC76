@@ -1,0 +1,278 @@
+{
+    "window": {
+        "screen_width": 640,
+        "screen_height": 640,
+        "name": "Aqua Invaders"
+    },
+    "Fonts": {
+        "font1": {
+            "typeface": "Fonts/font.ttf",
+            "size": 20,
+            "xPos": 320,
+            "yPos": 100,
+            "content": "Welcome! Please write your name",
+            "color": [
+                0,
+                0,
+                0
+            ],
+            "flag": "menu_text"
+        },
+        "font2": {
+            "typeface": "Fonts/font.ttf",
+            "size": 16,
+            "xPos": 320,
+            "yPos": 50,
+            "content": "",
+            "color": [
+                200,
+                400,
+                250
+            ],
+            "flag": "highscore_text"
+        },
+        "font3": {
+            "typeface": "Fonts/font.ttf",
+            "size": 25,
+            "xPos": 270,
+            "yPos": 110,
+            "content": "!Highscore!",
+            "color": [
+                220,
+                400,
+                250
+            ],
+            "flag": "highscore_vec_text"
+        },
+        "font4": {
+            "typeface": "Fonts/font.ttf",
+            "size": 24,
+            "xPos": 100,
+            "yPos": 15,
+            "content": "Score : 0",
+            "color": [
+                0,
+                255,
+                0
+            ],
+            "flag": "game_text"
+        },
+        "font5": {
+            "typeface": "Fonts/font.ttf",
+            "size": 25,
+            "xPos": 270,
+            "yPos": 415,
+            "content": "Your score:",
+            "color": [
+                220,
+                400,
+                250
+            ],
+            "flag": "score_text"
+        },
+        "font6": {
+            "typeface": "Fonts/font.ttf",
+            "size": 24,
+            "xPos": 500,
+            "yPos": 15,
+            "content": "HP: 3",
+            "color": [
+                255,
+                0,
+                0
+            ],
+            "flag": "hp_text"
+        }
+    },
+    "Buttons": {
+        "button1": {
+            "textfile": "Images/start_active.png",
+            "scale": 0.6,
+            "xPos": 320,
+            "yPos": 450,
+            "flag": "start"
+        },
+        "button2": {
+            "textfile": "Images/checkbox.png",
+            "scale": 0.6,
+            "xPos": 550,
+            "yPos": 450,
+            "flag": "check_name"
+        },
+        "button3": {
+            "textfile": "Images/checkmark.png",
+            "scale": 0.6,
+            "xPos": 550,
+            "yPos": 450,
+            "flag": "checkmark"
+        },
+        "button4": {
+            "textfile": "Images/highscore.png",
+            "scale": 0.6,
+            "xPos": 330,
+            "yPos": 570,
+            "flag": "highscore"
+        },
+        "button5": {
+            "textfile": "Images/menu.png",
+            "scale": 0.5,
+            "xPos": 320,
+            "yPos": 500,
+            "flag": "goback"
+        },
+        "button6": {
+            "textfile": "Images/easy.png",
+            "scale": 0.5,
+            "xPos": 100,
+            "yPos": 400,
+            "flag": "easy"
+        },
+        "button7": {
+            "textfile": "Images/hard.png",
+            "scale": 0.5,
+            "xPos": 100,
+            "yPos": 465,
+            "flag": "hard"
+        }
+    },
+    "Backgrounds": {
+        "background1": {
+            "textfile": "Images/water.png",
+            "scale": 1.4,
+            "xPos": 320,
+            "yPos": 320,
+            "flag": "background_game_state"
+        },
+        "background2": {
+            "textfile": "Images/menu_background.png",
+            "scale": 0.75,
+            "xPos": 320,
+            "yPos": 320,
+            "flag": "menu_game_state"
+        },
+        "background3": {
+            "textfile": "Images/highscore_background.png",
+            "scale": 0.75,
+            "xPos": 320,
+            "yPos": 320,
+            "flag": "highscore_state"
+        }
+    },
+    "Objects": {
+        "Avatar": {
+            "textfile": "Images/avatar.png",
+            "scale": 0.3,
+            "xPos": 320,
+            "yPos": 600,
+            "speed": 250,
+            "hp": 3,
+            "flag": "Avatar"
+        },
+        "Projectile": {
+            "textfile": "Images/projectile_avatar.png",
+            "scale": 0.2,
+            "xPos": 320,
+            "yPos": 550,
+            "speed": 275,
+            "hp": 1,
+            "flag": "Projectile"
+        },
+        "Shark": {
+            "textfile": [
+                "Images/shark_2hp.png",
+                "Images/shark_1hp.png"
+            ],
+            "scale": 0.3,
+            "xPos": [
+                200,
+                440
+            ],
+            "yPos": -200,
+            "speed": 0,
+            "speed_during_game": 75,
+            "hp": 2,
+            "probability": [
+                100000,
+                200,
+                600
+            ],
+            "flag": "Shark"
+        },
+        "Projectile_enemy": {
+            "textfile": "Images/projectile_octopus.png",
+            "scale": 0.2,
+            "xPos": 320,
+            "yPos": 550,
+            "speed": [
+                -100,
+                -200
+            ],
+            "hp": 1,
+            "flag": "Projectile_Enemy"
+        },
+        "Shell": {
+            "textfile": [
+                "Images/shell_3hp.png",
+                "Images/shell_2hp.png",
+                "Images/shell_1hp.png"
+            ],
+            "scale": 0.3,
+            "xPos": 50,
+            "yPos": 450,
+            "speed": 0,
+            "hp": 3,
+            "flag": "Shell"
+        },
+        "Power": {
+            "textfile": [
+                "Images/Powerup.png",
+                "Images/Powerdown.png"
+            ],
+            "scale": 0.2,
+            "xPos": 200,
+            "yPos": 10,
+            "speed": 250,
+            "hp": 1,
+            "power_types": [
+                0,
+                1
+            ],
+            "probability": [
+                2,
+                100000,
+                99840
+            ],
+            "flag": [
+                "Power_Up",
+                "Power_Down"
+            ]
+        },
+        "Octopus": {
+            "textfile": "Images/octopus.png",
+            "scale": 0.2,
+            "xPos": 300,
+            "yPos": 10,
+            "speed": 70,
+            "hp": 1,
+            "probability": [
+                100000,
+                99950,
+                99720
+            ],
+            "flag": "Octopus"
+        }
+    },
+    "Highscore": {
+        "game1": "Isak 97  difficult\n\n",
+        "game2": "Ruben 61  difficult\n\n",
+        "game3": "Anmar  49  difficult\n\n",
+        "game4": "Emil 43  difficult\n\n"
+    },
+    "Game_seed": {
+        "game_seed": [
+            0.58,
+            45345,
+            6653264
+        ]
+    }
+}
